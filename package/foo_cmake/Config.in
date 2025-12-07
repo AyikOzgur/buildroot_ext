@@ -1,0 +1,9 @@
+config BR2_PACKAGE_FOO_CMAKE
+    bool "foo_cmake"
+    depends on BR2_TOOLCHAIN_BUILDROOT_CXX
+    help
+      Simple test program built with CMake.
+
+
+comment "foo_cmake needs a toolchain with C++ support"
+    depends on !BR2_TOOLCHAIN_BUILDROOT_CXX

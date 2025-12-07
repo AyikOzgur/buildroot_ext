@@ -1,0 +1,4 @@
+
+menu "My external packages"
+    source "$BR2_EXTERNAL_MY_EXT_PATH/package/foo_cmake/Config.in"
+endmenu
