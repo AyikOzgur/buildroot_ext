@@ -1,0 +1,5 @@
+config BR2_PACKAGE_MEDIAMTX
+    bool "mediamtx"
+    depends on BR2_PACKAGE_HOST_GO_TARGET_ARCH_SUPPORTS
+    help
+      MediaMTX is a real-time media server and proxy.
